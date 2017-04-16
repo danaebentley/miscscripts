@@ -1,0 +1,25 @@
+#!/bin/bash
+# Complete Ubuntu  update process from command line
+
+sudo apt-get update
+echo "..........."
+echo "Update done"
+echo "..........."
+sudo apt-get upgrade -y
+echo "............"
+echo "Upgrade done"
+echo "............"
+sudo apt-get dist-upgrade -y
+echo "................."
+echo "Dist-upgrade done"
+echo "................."
+sudo apt-get autoremove -y
+echo "..............."
+echo "Autoremove done"
+echo "..............."
+sudo apt-get autoclean -y
+echo "............................"
+echo "Autoclean done"
+echo "Don't forget to sudo reboot"
+echo "Good-bye!"
+echo "............................"
