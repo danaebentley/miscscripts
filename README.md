@@ -1,3 +1,4 @@
 # miscscripts
 Miscellaneous scripts I have created as I learn more Unix commands.
-They may not be impressive yet. Give me time.
+
+Some are usable, some are theory. Hopefully this expands over time. 
