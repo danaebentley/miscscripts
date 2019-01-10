@@ -16,7 +16,7 @@ do
 done
 echo
 echo -e "${Yellow}My scripts in development${NC}" 
-yourfilesindev=`ls scripts/*`
+yourfilesindev=`ls ~/scripts/*`
 for eachdevfile in $yourfilesindev
 do
    echo $eachdevfile
