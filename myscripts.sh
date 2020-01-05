@@ -9,19 +9,19 @@ echo -e "${Blue}These are the scripts available on this machine${NC}"
 echo
 echo -e "${Yellow}My scripts${NC}"
 echo
-yourfilenames=`ls /bin/*.sh`
+yourfilenames=`ls ~/miscscripts/*.sh`
 for eachfile in $yourfilenames
 do
-   echo $eachfile
+  echo $eachfile
 done
 echo
-echo -e "${Yellow}My scripts in development${NC}" 
-yourfilesindev=`ls ~/scripts/*`
-for eachdevfile in $yourfilesindev
-do
-   echo $eachdevfile
-done
-echo
+# echo -e "${Yellow}My scripts in development${NC}" 
+# yourfilesindev=`ls ~/miscscripts/*`
+# for eachdevfile in $yourfilesindev
+# do
+#   echo $eachdevfile
+# done
+# echo
 echo -e "${Yellow}API scripts${NC}"
 echo
 restfilenames=`ls ~/nimbus_rest_interface/scripts/*`
@@ -38,9 +38,9 @@ do
    echo $eachtefile
 done
 echo
-echo -e "${Yellow}Jason Mercer's rviz script${NC}"
-echo
-echo "/bin/qqq"
-echo
+# echo -e "${Yellow}Jason Mercer's rviz script${NC}"
+# echo
+# echo "/bin/qqq"
+# echo
 
 

@@ -6,15 +6,15 @@ echo "..........."
 echo "Update done"
 echo "..........."
 sleep 2
-sudo apt upgrade
+sudo apt full-upgrade
 echo "............"
 echo "Upgrade done"
 echo "............"
-sleep 2
-sudo apt dist-upgrade
-echo "................."
-echo "Dist-upgrade done"
-echo "................."
+# sleep 2
+# sudo apt-get dist-upgrade
+# echo "................."
+# echo "Dist-upgrade done"
+# echo "................."
 sleep 2
 echo "................."
 echo "Don't forget to autoremove, autoclean, and sudo reboot"
